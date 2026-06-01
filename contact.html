@@ -24,14 +24,32 @@
                     <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="about me.html" class="nav-link">About me</a></li>
                     <li class="nav-item"><a href="projecten.html" class="nav-link">Projecten</a></li>
-                    
+
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Contact Section -->
-    <div class="container py-5">
+     <div class="container py-5 fade-in">
+        <style>
+            .fade-in {
+                opacity: 0;
+                animation: fadeIn 2s ease-in-out forwards;
+            }
+
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                    transform: translateY(20px);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        </style>
 
         <div class="text-center mb-5">
             <h1 class="fw-bold">Contact</h1>
@@ -52,7 +70,7 @@
                         <div class="mb-4">
                             <a href="tel:+31643217823" class="d-flex align-items-center text-decoration-none text-dark">
                                 <img src="logo/phone logo.png" alt="Phone Logo" class="me-3"
-                                     style="width: 32px; height: auto;">
+                                    style="width: 32px; height: auto;">
                                 <span class="fw-semibold fs-5">+31 6 43217823</span>
                             </a>
                         </div>
@@ -60,9 +78,9 @@
                         <!-- Email -->
                         <div class="mb-4">
                             <a href="mailto:behdaadpaydar@gmail.com"
-                               class="d-flex align-items-center text-decoration-none text-dark">
+                                class="d-flex align-items-center text-decoration-none text-dark">
                                 <img src="logo/Email.png" alt="Email Logo" class="me-3"
-                                     style="width: 32px; height: auto;">
+                                    style="width: 32px; height: auto;">
                                 <span class="fw-semibold fs-5">behdaadpaydar@gmail.com</span>
                             </a>
                         </div>
@@ -70,16 +88,16 @@
                         <!-- Instagram -->
                         <div class="mb-4">
                             <a href="https://www.instagram.com/behdad.thepersian" target="_blank"
-                               class="d-flex align-items-center text-decoration-none text-dark">
+                                class="d-flex align-items-center text-decoration-none text-dark">
                                 <img src="logo/instagram.png" alt="Instagram Logo" class="me-3"
-                                     style="width: 32px; height: auto;">
+                                    style="width: 32px; height: auto;">
                                 <span class="fw-semibold fs-5">@behdad.thepersian</span>
                             </a>
                         </div>
 
                         <div class="text-center mt-4">
-                            <img src="img/Behdad.JPG" class="img-fluid rounded shadow"
-                                 alt="Behdad Abbas Nezhad" style="max-width: 200px;">
+                            <img src="img/Behdad.JPG" class="img-fluid rounded shadow" alt="Behdad Abbas Nezhad"
+                                style="max-width: 200px;">
                         </div>
 
                     </div>
